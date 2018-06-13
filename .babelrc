@@ -1,0 +1,18 @@
+//taka konfiguracja mówi: "Moja aplikacja będzie uruchamiana na 2 ostatnich wersjach przeglądarek oraz na safari w wersji 7 lub nowszej".
+
+/* 
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": ["last 2 versions", "safari >= 7"]
+            }
+        },
+        "react"
+        ]
+    ]
+}
+*/
+
+{
+  "presets": ["env", "react"]
+}
