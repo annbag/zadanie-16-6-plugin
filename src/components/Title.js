@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //arrow function
-const Title = props => <h1>{props.title}</h1>
+const Title = props => <h1>{props.title} Liczba zadań to: {props.lengthTask}</h1>
 
 //ES5
 /*function Title(props) {
